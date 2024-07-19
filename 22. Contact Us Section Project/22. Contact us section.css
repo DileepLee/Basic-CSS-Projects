@@ -1,0 +1,23 @@
+.bg-container {
+    height: 100vh;
+    background-color: #f5f7fa;
+    background-size: cover;
+}
+
+.main-head {
+    color: #183b56;
+    font-size: 40px;
+    font-family: roboto;
+    font-weight: 600;
+}
+
+.button {
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    background-color: transparent;
+    color: #ff9f00;
+    border-color: #ff9f00;
+    font-weight: bold;
+    border-radius: 10px;
+}

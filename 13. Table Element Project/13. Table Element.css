@@ -1,0 +1,52 @@
+body{
+    background-color: aqua;
+    background-size: cover;
+    height: 100vh;
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    background-image: url('https://images.unsplash.com/photo-1680510150229-aaceb773e1ee?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+  }
+
+  table{
+    border: 2px solid rgb(134, 2, 250);
+    font-family: sans-serif;
+    font-weight: 500;
+    color: rgb(17, 5, 37);
+  }
+  .row{
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 20px;
+  }
+  .row1:hover{
+    color: rgb(255, 0, 0);
+    font-weight: 600;
+  }
+  .row2:hover{
+    color: rgb(255, 0, 0);
+    font-weight: 700;
+  }
+  .row3:hover{
+    color: rgb(255, 0, 0);
+    font-weight: 700;
+  }
+  .row4:hover{
+    color: rgb(255, 0, 0);
+    font-weight: 700;
+  }
+  .row5:hover{
+    color: rgb(255, 0, 0);
+    font-weight: 700;
+  }
+  .row6:hover{
+    color: rgb(255, 0, 0);
+    font-weight: 700;
+  }

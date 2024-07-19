@@ -1,0 +1,16 @@
+body{
+    background-color: darkviolet;
+    color: white;
+
+}
+h1{
+    font-size: 13em;
+    text-align: center;
+    background-image: url('https://images.pexels.com/photos/12728794/pexels-photo-12728794.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+    background-position: center;
+    height: 300px;
+    color: transparent;
+    background-clip: text;
+   
+}
+   

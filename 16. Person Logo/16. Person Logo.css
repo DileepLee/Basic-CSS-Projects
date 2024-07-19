@@ -1,0 +1,35 @@
+*{
+    inset: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: violet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color: brown;
+}
+.person{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    margin: 20px;
+}
+.person::after{
+    content: "";
+    position: absolute;
+    height: 60px;
+    width: 100px;
+    background-color: black;
+    top: 50px;
+    left: -22px;
+    border-radius: 50% 50% 10% 10%;
+}
